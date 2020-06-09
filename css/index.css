@@ -1,0 +1,256 @@
+ 
+ html,body{
+ /**   
+background-image: url(../images/bg1.jpg);
+background-repeat: no-repeat;  
+background-size: 100% 100%;    
+**/
+margin: 0;
+padding: 0; 
+}
+body{
+    background-color: #e9e8e8;
+  
+}
+.top{
+    width: 80%;
+    height: 50px;
+    background-color: #ffffff;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(38, 87, 143);
+    position: absolute;
+    top: 15px;
+    left: 15%;
+}
+.navbar{
+    height: auto;
+    width: 40%;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+   
+}
+.nav li{
+    width: 120px;
+    height: 30px;
+    background-color:transparent ;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color:transparent ;
+    text-align: center;
+    float:left;
+    list-style:none;
+    color: #ffffff;
+}
+.nav li:hover{
+    border-color:rgb(38, 87, 143) ;
+}
+.nav li a{
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(38, 87, 143);
+    text-decoration: none;
+}
+
+.photo{
+    width: 80%;
+    height: 400px;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(../images/bg5.jpg);
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;  
+    
+    top: 55px;
+}
+.photobg{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 55px;
+    background-color: #000;
+    opacity: 0.4;
+}
+.welcome{
+    font-size: 40px;
+    color: white;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 25%;
+ 
+}
+.text_bg{
+    position: absolute;
+    top: 160px;
+    left: 40%;
+}
+.text{
+    font-size: 13px;
+    color: white;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.zuji_title_bg{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffffff;
+
+}
+.png1{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    display: inline-block;
+}
+
+.zuji_title{
+    font-size: 20px;
+    color: rgb(38, 87, 143);
+    font-weight: bold;
+    position: absolute;
+    top: 478px;
+   
+}
+/***/ 
+.block1{
+    width: 80%;
+    height: 500px;
+    background-color: #ffffff;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: 10%; 
+} 
+.title1{
+    width: 80%;
+    height: 50px;
+    background-color:rgb(38, 87, 143);
+   }
+.tag1{ 
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 5px;
+    text-align: center;
+    margin: 20px;
+   }
+/**内容格式**/
+.container{
+    width: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card{
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #4d89ce;
+}
+.card2{
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #658ab4;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.photos{
+width: 150px;
+height: auto;
+margin: 20px;
+border-radius: 5px;
+}
+.tag{
+    background-color:transparent;
+    color: #4173ac;
+    font-size: 20px;
+    font-weight: 5px;
+    text-align: center;
+    margin: 20px;
+}
+.tag0{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 5px;
+    text-align: center;
+    margin: 20px;
+}
+.intro{
+margin: 20px;
+height: 150px;
+font-size: 10px;
+color:rgb(255, 255, 255) ;
+}
+.intro2{
+    margin: 20px;
+    height: 150px;
+    font-size: 10px;
+    color: #4173ac;
+    }
+ /**block2**/
+ .block2{
+    width: 80%;
+    height: 520px;
+    background-color: #ffffff;
+    margin: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+   }   
+.title2{
+    width: 80%;
+    margin-left: 20%;
+    height: 50px;
+    background-color:rgb(38, 87, 143);
+   }
+.tag2{ 
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 5px;
+    text-align: center;
+    position: absolute;
+    right: 12%;
+   }
+
+ /**页脚**/  
+.bottom{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(38, 87, 143);
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+}
+.bo_text{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 30%;
+    right: 30%;
+    color: #9e9e9e;
+    font-size: 13px;
+}

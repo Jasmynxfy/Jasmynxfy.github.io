@@ -1,0 +1,234 @@
+ 
+ html,body{
+    margin: 0;
+    padding: 0; 
+    }
+    body{
+        background-color: #e9e8e8;
+    }
+    /**导航栏部分**/
+    .top{
+        width: 80%;
+        height: 50px;
+        background-color: #ffffff;
+        margin: 5px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .name{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(38, 87, 143);
+        position: absolute;
+        top: 15px;
+        left: 15%;
+    }
+    .navbar{
+        height: auto;
+        width: 40%;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+    }
+    .nav li{
+        width: 120px;
+        height: 30px;
+        background-color:transparent ;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-bottom-style: solid;
+        border-width: 2px;
+        border-color:transparent ;
+        text-align: center;
+        float:left;
+        list-style:none;
+        color: #ffffff;
+    }
+    .nav li:hover{
+        border-color:rgb(38, 87, 143) ;
+    }
+    .nav li a{
+        font-size: 13px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color: rgb(38, 87, 143);
+        text-decoration: none;
+    }
+    /**页脚部分**/
+    .bottom{
+        width: 80%;
+        height: 30px;
+        background-color: rgb(38, 87, 143);
+        margin-left: 10%;
+        margin-right: 10%;
+     
+    }
+    .bo_text{
+        width: 40%;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        left: 30%;
+        right: 30%;
+        color: #9e9e9e;
+        font-size: 13px;
+    }
+    /**block0**/
+ .block0{
+     width: 80%;
+     height: 300px;
+     background-color: #ffffff;
+     margin: 5px;
+     margin-left: 10%;
+     margin-right: 10%;
+     background-image: url(../images/bg2.jpg);
+     background-repeat: no-repeat;  
+     background-size: 100% 100%;  
+ }   
+ .tag{
+     background-color: transparent;
+     position: absolute;
+     left: 40%;
+     top:120px;
+     color: #ffffff;
+     font-size: 50px;
+     font-weight: 5px;
+     text-align: center;
+ }
+    /**block1**/
+    .block1{
+     width: 80%;
+     height: 590px;
+     background-color: #ffffff;
+     margin: 5px;
+     margin-left: 10%;
+     margin-right: 10%; 
+ } 
+ .photo_bg1{
+     position: absolute;
+     right: 13%;
+     margin-top: 60px;
+     height: 300px;
+     width: 340px;
+ }
+    .yinyue_title{
+     width: 80%;
+     height: 50px;
+     background-color:rgb(38, 87, 143);
+    }
+    .tag1{ 
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     font-size: 25px;
+     font-weight: 5px;
+     text-align: center;
+     margin: 20px;
+    }
+   
+   /**block2**/
+   .block2{
+     width: 80%;
+     height: 520px;
+     background-color: #ffffff;
+     margin: 8px;
+     margin-left: 10%;
+     margin-right: 10%;
+    }   
+    .yuedu_title{
+     width: 80%;
+     margin-left: 20%;
+     height: 50px;
+     background-color:rgb(38, 87, 143);
+    }
+    .tag2{ 
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     font-size: 25px;
+     font-weight: 5px;
+     text-align: center;
+     position: absolute;
+     right: 12%;
+    }
+    
+   /**block3**/
+   .block3{
+    width: 80%;
+    background-color: #ffffff;
+    margin: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+   }   
+   .dianying_title{
+    width: 80%;
+    height: 50px;
+    background-color:rgb(38, 87, 143);
+   }
+   .tag3{ 
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 5px;
+    text-align: center;
+    margin: 20px;
+   }
+   /**内容1**/
+   .container1{
+       margin: 20px;
+       padding: 10px;
+   }
+   .photo1{
+       width: 120px;
+       height: 120px;
+       border-radius: 60px;
+   }
+   .title1{
+       font-size: 25px;
+       color:rgb(38, 87, 143) ;
+       position: absolute;
+       margin: 20px;
+       margin-top: 0;
+   }
+   .info1{
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+    font-size: 10px;
+    color:rgb(28, 64, 104) ;
+    position: absolute;
+    margin: 20px;
+    margin-top: 35px;
+   }
+  /**内容2**/
+  .photo_bg2{
+    display: inline-block;
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+}
+   .container2{
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+.photo2{
+    width: 110px;
+    height: 120px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.title2{
+    font-size: 25px;
+    color:rgb(38, 87, 143) ;
+    margin: 20px;
+    text-align: center;
+}
+.info2{
+ width: 200px;
+ height: 150px;
+ margin-left: 25px;
+    margin-right: 25px;
+ font-size: 10px;
+ color:rgb(28, 64, 104) ;
+}
