@@ -1,17 +1,12 @@
  
- html,body{
- /**   
-background-image: url(../images/bg1.jpg);
-background-repeat: no-repeat;  
-background-size: 100% 100%;    
-**/
+html,body{
 margin: 0;
 padding: 0; 
 }
 body{
     background-color: #e9e8e8;
-  
 }
+/**页眉导航栏*/ 
 .top{
     width: 80%;
     height: 50px;
@@ -90,7 +85,6 @@ body{
     position: absolute;
     top: 100px;
     left: 25%;
- 
 }
 .text_bg{
     position: absolute;
@@ -104,6 +98,7 @@ body{
     width: 100%;
     text-align: center;
 }
+/**足迹*/ 
 .zuji_title_bg{
     width: 80%;
     height: 50px;
@@ -127,7 +122,7 @@ body{
     top: 478px;
    
 }
-/***/ 
+/**block1*/ 
 .block1{
     width: 80%;
     height: 500px;
@@ -211,7 +206,7 @@ color:rgb(255, 255, 255) ;
     color: #4173ac;
     }
  /**block2**/
- .block2{
+.block2{
     width: 80%;
     height: 520px;
     background-color: #ffffff;
